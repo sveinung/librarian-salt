@@ -4,3 +4,6 @@ lib = File.dirname(__FILE__) + '../lib'
 
 $:.unshift(lib) unless $:.include?(lib)
 
+require 'librarian/salt/cli'
+
+Librarian::Salt::Cli.bin!
