@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.version = Librarian::Salt::VERSION
   s.authors = ['Sveinung Dalatun']
   s.email = 'sdalatun@gmail.com'
+  s.homepage = 'https://github.com/sveinung/librarian-salt'
   s.summary = 'Bundler for your Salt state modules.'
   s.description = 'Makes it easier to manage your SLS modules by automatically downloading
                   them into your srv folder from git.'
